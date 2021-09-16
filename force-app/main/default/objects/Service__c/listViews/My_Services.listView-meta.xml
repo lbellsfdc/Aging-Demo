@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Services</fullName>
+    <columns>NAME</columns>
+    <columns>Service_Type__c</columns>
+    <columns>Service_Recipient__c</columns>
+    <columns>Service_Provider__c</columns>
+    <columns>Start_Date__c</columns>
+    <columns>End_Date__c</columns>
+    <columns>Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>My_Community_User_Services__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>My Services</label>
+</ListView>

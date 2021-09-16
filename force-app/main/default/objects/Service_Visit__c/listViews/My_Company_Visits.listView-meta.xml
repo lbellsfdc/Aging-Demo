@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Company_Visits</fullName>
+    <columns>NAME</columns>
+    <columns>Checkin_Date_Time__c</columns>
+    <columns>Checkout_Date_Time__c</columns>
+    <columns>Service__c</columns>
+    <columns>Service_Performed_By__c</columns>
+    <columns>Visit_Time_in_minutes__c</columns>
+    <columns>Check_In_Distance__c</columns>
+    <columns>Distance_Flag__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>My Company Visits</label>
+</ListView>

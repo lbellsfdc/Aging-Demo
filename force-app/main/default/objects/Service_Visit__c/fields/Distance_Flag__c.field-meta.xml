@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Distance_Flag__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Check_In_Distance__c &lt;= 0.25, IMAGE(&quot;/resource/1623365139000/DistanceGood&quot;, &quot;Green&quot; , 30, 30) , IMAGE(&quot;/resource/1623365155000/DistanceBad&quot;, &quot;Red&quot; , 30, 30))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>If distance is over 0.25 miles, show red.</inlineHelpText>
+    <label>Distance Flag</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
